@@ -16,7 +16,7 @@ This repository contains the submission for the Lab Assistant Selection for Lab 
 1. **Design of Experiment + Supervised Learning**: 
    - The task focuses on **Heart Disease Classification Based on Patient Data**.
    - The workflow includes: Data Gathering, Exploratory Data Analysis, Data Preprocessing, Modeling, and Validation.
-   - Six classification models are implemented and evaluated: KNN, Logistic Regression, Gaussian Naive Bayes, CART, SVM, ANN. 
+   - Five classification models are implemented and evaluated: KNN, Logistic Regression, Gaussian Naive Bayes, CART, and Random Forest.
    - These models are compared with their equivalent implementations using libraries, evaluated using **Hold-out validation** and **K-fold Cross-validation**, with **Accuracy** as the metric.
 
 2. **Unsupervised Learning**: 
@@ -57,6 +57,7 @@ pip install numpy pandas matplotlib scikit-learn
 Bonus Implemented:
 - Exponential Loss Function for Logistic Regression
 - Newton's Method for Logistic Regression
+- Bonus 1 (Ensemble Methods): Random Forest
 
 ---
 
@@ -81,6 +82,7 @@ Implemented Bonus:
 │   │   ├── knn.pdf
 │   │   ├── logistic-regression.pdf
 │   │   ├── modeling.pdf
+│   │   ├── random-forest.pdf
 │   ├── unsupervised-learning
 │   │   ├── dbscan.pdf
 │   │   ├── kmeans.pdf
@@ -94,6 +96,7 @@ Implemented Bonus:
 │   │   ├── heart-disease-classification.ipynb
 │   │   ├── knn.py
 │   │   ├── logistic_regression.py
+│   │   ├── random_forest.py
 │   ├── unsupervised-learning
 │   │   ├── dbscan.py
 │   │   ├── kmeans.py
